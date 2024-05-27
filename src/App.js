@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Products from './Product';
+import {a,b} from './Product';
 function App() {
+  console.log(a,b);
   return (
+
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello World
         </p>
         <a
           className="App-link"
@@ -17,7 +20,9 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <Products/>
+      
     </div>
   );
 }
